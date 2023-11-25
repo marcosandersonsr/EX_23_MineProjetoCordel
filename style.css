@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Passion One';
+    src: url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+}
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+ * {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ /* Parte do cabeçalho */
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    max-height: 350px;  
+}
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte1);
+    font-weight: 900;
+    font-variant: small-caps;
+    font-size: 6vw;
+    padding-top: 50px;
+}
+header > p {
+    text-align: center;
+    font-family: var(--fonte1);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+header > p > a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+/* Parte do Poema */
+
+section {
+    font-family: var(--fonte2);
+    font-size: 3vw;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 5.5vw;
+    
+
+    padding: 5% 5%;
+}
+
+section > p {
+    padding-bottom: 3em;
+}
+
+.normal {
+    background-color: white;
+}
+
+/* Parte do Efeito paralax */
+
+.imagem {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#img01 {
+    background-image: url(imagens/background001.jpg);
+}
+#img02 {
+    background-image: url(imagens/background002.jpg);
+}
+.imagem > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+    max-width: 46%;
+    padding-bottom: 0px;
+}
+
+/* Parte do Rodapé */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer > p {
+    font-family: var(--fonte1);
+    padding: 10px;
+    text-align: center;
+}
+
+footer > P > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+}
