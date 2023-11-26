@@ -63,9 +63,6 @@ section {
     padding: 5% 5%;
 }
 
-section > p {
-    padding-bottom: 3em;
-}
 
 .normal {
     background-color: white;
