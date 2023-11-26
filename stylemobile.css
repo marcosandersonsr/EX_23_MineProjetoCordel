@@ -11,7 +11,7 @@ header > h1 {
 }
 
 section {
-    font-family: var(--fonte2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 4vw;
     font-style: italic;
     font-weight: 600;
@@ -24,6 +24,6 @@ section {
 .imagem > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.26);
-    max-width: 60%;
+    max-width: 75%;
     padding-bottom: 0px;
 }
