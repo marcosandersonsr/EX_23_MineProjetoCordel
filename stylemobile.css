@@ -1,13 +1,29 @@
 @media only screen and (max-width: 920px) {}
 
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte1);
+    font-weight: 900;
+    font-variant: small-caps;
+    font-size: 8vw;
+    padding-top: 50px;
+}
 
 section {
     font-family: var(--fonte2);
-    font-size: 5vw;
+    font-size: 7vw;
     font-style: italic;
     font-weight: 600;
-    line-height: 5.5vw;
+    line-height: 7vw;
     
 
     padding: 5% 5%;
+}
+
+.imagem > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+    max-width: 58%;
+    padding-bottom: 0px;
 }
