@@ -54,7 +54,7 @@ header > p > a {
 
 section {
     font-family: var(--fonte2);
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-style: italic;
     font-weight: 600;
     line-height: 5.5vw;
@@ -88,7 +88,7 @@ section > p {
 .imagem > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.26);
-    max-width: 46%;
+    max-width: 52%;
     padding-bottom: 0px;
 }
 
